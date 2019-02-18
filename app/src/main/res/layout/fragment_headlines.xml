@@ -7,14 +7,21 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
+        style="@style/View"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="@string/hello_blank_fragment" />
 
     <ListView
+        style="@style/View"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:entries="@array/countires"
-        android:id="@+id/listview"/>
+        android:id="@+id/listview"
+
+
+
+
+        />
 
 </FrameLayout>
